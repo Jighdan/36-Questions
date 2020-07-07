@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@0;1&family=Proza+Libre&display=swap");
+.title {
+  font-family: "Proza Libre", sans-serif;
+}
+
+.text {
+  font-family: "Gentium Basic", sans-serif;
+}
+
+.fine-text {
+  font-weight: lighter;
+}
+
+a {
+  color: #ccc;
+}
+
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #222;
+  color: #ccc;
+}
+
+.header {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .top-menu {
+  min-width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .top-menu .top-menu-link {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: bold;
+}
+
+.main {
+  margin-top: 10%;
+  padding: 0 20%;
+}
+/*# sourceMappingURL=shared_base.css.map */
